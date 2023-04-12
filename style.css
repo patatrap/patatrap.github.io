@@ -1,0 +1,64 @@
+body{
+    text-align: center;
+    background-color:rgb(0, 84, 105);
+}
+h1{
+    color: #5bcefa;
+    text-shadow: 1px 1px 3px #000000;
+    font-family: "Rubik";
+}
+h2{
+    color: #f5a9b8;
+    font-family: "Rubik";
+    font-size: 35px;
+    text-shadow: 1px 1px 3px #000000;
+    letter-spacing: px;
+}
+#container{
+    background-color: rgb(130, 130, 130);
+    height: 400px;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 10px;
+}
+
+#choice{
+    padding: 10px;
+}
+
+button{
+    height: 50px;
+    padding: 50px;
+    margin: 10px;
+    border-radius: 10px;
+    border-style:none
+}
+img{
+    border-radius: 10px;
+    padding: 10px;
+    height: 380px;
+    /*filter: blur(20px); */
+    transition: 0.5s;
+    
+}
+
+#yes{
+    background: url("img/tflag.png") no-repeat  ;
+}
+#no{
+    background: url("img/women.jpg") no-repeat;
+    background-position: center;
+
+}
+button:hover{
+    filter: contrast(200%);
+}
+
+p{
+    font-size: 50px;
+}
+
+img:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
