@@ -71,7 +71,7 @@ rng = Math.floor(Math.random()*20)
 imgContainer.src = img[rng];
 
 container.appendChild(imgContainer);
-console.log(img[rng]);
+//console.log(img[rng]);
 
 let i = 19;
 
@@ -82,9 +82,9 @@ function randomCard(){
         imgContainer.src = img[rng];
         i--;
         prog++;
-        console.log(img[rng]);
+        //console.log(img[rng]);
         //console.log(falseResponse);
-        console.log(score);
+        //console.log(score);
 
         
 
@@ -98,7 +98,7 @@ function randomCard(){
 
 }
 //console.log(img);
-console.log(falseResponse);
+//console.log(falseResponse);
 
         
 yes.onclick = function() {checkT() ; /* scoreElement.innerHTML = "score : " + score */  ; randomCard() ; h2.innerHTML = prog + "/20"; }; 
@@ -125,7 +125,7 @@ result.onclick = ()=> {
     h2.innerHTML = "Score: " + score + "/20" + "<br/>" +  resultPhraseF();
     document.body.appendChild(reload);
     document.body.appendChild(document.createElement("br"));
-    console.log(falseResponse);
+    //console.log(falseResponse);
 
     falseResponse.forEach(function(el){
         let img = document.createElement("img");
